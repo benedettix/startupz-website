@@ -6,7 +6,7 @@ I used bootstrap and react js. This is static website startupz website
 ## Available Scripts
 
 In the project directory, you can run:
-git clone https://github.com/facebook/create-react-app
+git clone https://github.com/benedettix/startupz-website
 Then ### `npm install`
 ### `npm start`
 
