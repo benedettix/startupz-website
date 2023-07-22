@@ -1,0 +1,46 @@
+.home-navbar {
+  margin-top: 25px;
+  img {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__rightside {
+    display: flex;
+    justify-content: flex-end;
+    ul {
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      li {
+        margin-right: 42px;
+        font-weight: 400;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        &:hover {
+          color: #46b8c8;
+        }
+      }
+    }
+    button {
+      border: none;
+      outline: none;
+      color: #46b8c8;
+      width: 185px;
+      height: 45px;
+      border: 1px solid #46b8c8;
+      border-radius: 40px;
+      background-color: transparent;
+      font-family: CircularStd-Bold;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        background-color: #46b8c8;
+        color: #fff;
+      }
+    }
+  }
+}

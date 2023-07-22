@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'CircularStd-Bolder'; /* Replace 'YourFontName' with your desired font family name */
+  src: url('../src/fonts/CircularStd-Bolder.otf') format('truetype'); /* Replace 'your-font-file.ttf' with the path to your .ttf file */
+  /* You can include multiple src lines for different font formats */
+}
+@font-face {
+  font-family: 'CircularStd-Bold'; /* Replace 'YourFontName' with your desired font family name */
+  src: url('../src/fonts/CircularStd-Bold.otf') format('truetype'); /* Replace 'your-font-file.ttf' with the path to your .ttf file */
+  /* You can include multiple src lines for different font formats */
+}
+@font-face {
+  font-family: 'CircularStd-Medium'; /* Replace 'YourFontName' with your desired font family name */
+  src: url('../src/fonts/CircularStd-Medium.ttf') format('truetype'); /* Replace 'your-font-file.ttf' with the path to your .ttf file */
+  /* You can include multiple src lines for different font formats */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  margin: 0;
+  color: #3D4F5C !important;
+  font-family: CircularStd-Medium !important;
+font-size: 18px;
+}
+
+h2,h3,h4,h5,button,a {
+  font-family: CircularStd-Bold;
 }

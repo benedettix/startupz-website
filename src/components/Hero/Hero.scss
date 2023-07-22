@@ -1,0 +1,39 @@
+.hero {
+  margin-top: 120px;
+  padding-bottom: 200px;
+  &__leftside {
+    h2 {
+      font-size: 85px;
+      font-family: CircularStd-Bold;
+    }
+    p {
+      color: #fb8958;
+      font-size: 24px;
+    }
+    a {
+      color: #fff;
+      background-color: #46b8c8;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      width: 157px;
+      height: 45px;
+      text-decoration: none;
+      padding: 12px 20px;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        background-color: white;
+        border: 1px solid #46b8c8;
+        color: #46b8c8;
+      }
+    }
+  }
+  &__rightside {
+    img {
+      width: 704.816px;
+      height: 507px;
+      position: absolute;
+      right: 0;
+    }
+  }
+}

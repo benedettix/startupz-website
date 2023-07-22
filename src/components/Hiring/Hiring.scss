@@ -1,0 +1,51 @@
+.hiring {
+  padding: 105px 0;
+  background: #fbfafa;
+  .left {
+    position: absolute;
+    left: 0;
+  }
+  .right {
+    position: absolute;
+    right: 0;
+  }
+  &__wrapper {
+    text-align: center;
+    h3 {
+      color: #3d4f5c;
+      text-align: center;
+
+      font-size: 50px;
+      font-style: normal;
+
+      line-height: 50px; /* 100% */
+      letter-spacing: -1px;
+    }
+    p {
+      width: 443px;
+      color: #fb8958;
+      margin: 0 auto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 125% */
+      letter-spacing: -0.24px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 243px;
+      border: none;
+      height: 45px;
+      border-radius: 32.5px;
+      background: var(--complementary-green, #46b8c8);
+      color: #fff;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        border: 1px solid #46b8c8;
+        background-color: transparent;
+        color: #46b8c8;
+      }
+    }
+  }
+}

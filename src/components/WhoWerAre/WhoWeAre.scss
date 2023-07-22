@@ -1,0 +1,47 @@
+.who-we-are {
+  background-color: #fbfafa;
+  padding: 120px 0;
+  &__head {
+    h2 {
+      font-size: 50px;
+      font-family: CircularStd-Bold;
+    }
+    p {
+      color: #fb8958;
+      font-size: 24px;
+      margin-top: 15px;
+    }
+    img {
+      width: 75px;
+      height: 88px;
+      float: right;
+    }
+  }
+
+  &__cards {
+    margin-top: 80px !important;
+    &__card {
+      h4 {
+        color: #fb8958;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        font-family: CircularStd-Bold;
+      }
+      .line {
+        background-color: #3d4f5c;
+        width: 50px;
+        height: 1px;
+        margin: 18px 0;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        width: 329px;
+        line-height: 38px; /* 126.667% */
+        letter-spacing: -0.3px;
+      }
+    }
+  }
+}
